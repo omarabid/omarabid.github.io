@@ -151,7 +151,7 @@ function browser_reload(cb) {
     browser_sync.init({
         server: "build",
         host: 'frontroot.com',
-        port: 8080
+        port: 8086
     });
 
     watch('build/*.html').on('change', browser_sync.reload);
