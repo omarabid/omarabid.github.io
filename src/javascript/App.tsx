@@ -25,7 +25,7 @@ class App extends Component {
           </div>
 
           <Router>
-              <Home path="/" />
+              <Home path="/"/>
               <Profile path="profile" />
               <Contact path="contact" />
           </Router>

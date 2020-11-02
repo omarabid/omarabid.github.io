@@ -1,6 +1,7 @@
 import * as React from "react";
+import { RouteComponentProps } from "@reach/router";
 
-const Home = () => (
+const Home = (props: RouteComponentProps) => (
   <div>
     <h2>Home</h2>
   </div>
